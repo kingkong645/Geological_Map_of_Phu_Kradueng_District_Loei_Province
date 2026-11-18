@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>แผนที่ธรณีวิทยา อำเภอภูกระดึง จังหวัดเลย</title>
+
+<style>
+
+html, body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+   background: ;
+}
+
+#layout {
+
+    position: relative;
+
+    width: 100vw;
+    height: 100vh;
+
+    background-image: url("layout.png");
+
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+#map3d {
+
+    position: absolute;
+
+    /* ตำแหน่ง */
+    left: 20.1%;
+    top: 13.9%;
+
+    /* ขนาด 3D */
+    width: 41.8%;
+    height: 66%;
+
+    border: none;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div id="layout">
+
+    <iframe
+        id="map3d"
+        src="3D1/index.html">
+    </iframe>
+
+</div>
+
+</body>
+
+</html>
